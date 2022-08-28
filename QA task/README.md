@@ -1,9 +1,10 @@
-# KorSQuAd를 사용하여 QA task 풀기(BertModel fine-tuning)
+# QA task (BertModel fine-tuning)
 - 사용 환경 : Google Colab
 - 언어 : Python, Pytorch
 - validation accuracy : 0.9902
 - Dataset : KorQuAD 1.0 ( train - 60407 rows, validation - 5774 rows)
 ![Dataset](https://velog.velcdn.com/images/ttogle918/post/98eb076d-e1b9-4372-a1e2-7b4aeaffbaee/image.png)
+![Dataset info](https://velog.velcdn.com/images/ttogle918/post/9eac083b-d43f-476b-805a-461cf50ea1e2/image.png)
 
 1. [01_BERT_QA_workflow.ipynb](https://github.com/ttogle918/AI_practice/blob/main/QA%20task/01_BERT_QA_workflow.ipynb)
   - 기존에 pre-training된 모델을 가져와서 결과값을 도출하는 과정
