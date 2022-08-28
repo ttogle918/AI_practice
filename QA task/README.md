@@ -3,7 +3,7 @@
 - 언어 : Python, Pytorch
 - validation accuracy : 0.9902
 - Dataset : KorQuAD 1.0 ( train - 60407 rows, validation - 5774 rows)
-![Dataset](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1f50f9bf-91ea-4d5d-918a-c8080549bb7a/Untitled.png)
+![Dataset](https://velog.velcdn.com/images/ttogle918/post/98eb076d-e1b9-4372-a1e2-7b4aeaffbaee/image.png)
 
 1. [01_BERT_QA_workflow.ipynb](https://github.com/ttogle918/AI_practice/blob/main/QA%20task/01_BERT_QA_workflow.ipynb)
   - 기존에 pre-training된 모델을 가져와서 결과값을 도출하는 과정
@@ -28,7 +28,7 @@
     - output : input과 같은 길이의 tensor. input의 위치 중 answer이 위치하는 id 위치만 1로 나타냈다.
   
   - Model :  `klue/bert-base` 를 fine-tuning 하여 사용
-  ![Model](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0731c4dc-5a22-4778-b395-6658da9edc43/Untitled.png)
+  ![Model](https://velog.velcdn.com/images/ttogle918/post/8ca5d438-e9f8-4b44-8c3c-abe62d044362/image.png)
   - context에서 정답인 부분을 1로 하여 정답 위치 찾기
 
   - 고려해야할 점
